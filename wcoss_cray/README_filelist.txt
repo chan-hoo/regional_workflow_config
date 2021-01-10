@@ -1,1 +1,1 @@
-This directory contains sample 'config.sh' files for the WCOSS Cray:
+This directory contains sample 'config.sh' scripts for the WCOSS Cray:
