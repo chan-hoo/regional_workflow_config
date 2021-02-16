@@ -1,6 +1,6 @@
 MACHINE="wcoss_dell_p3"
 ACCOUNT="RRFS-T2O"
-EXPT_SUBDIR="test_CONUS_25km_community"
+EXPT_SUBDIR="test_CONUS_25km_GFSv15p2"
 
 RUN_ENVIR="community"
 PREEXISTING_DIR_METHOD="rename"
