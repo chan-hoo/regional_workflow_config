@@ -1,6 +1,6 @@
 MACHINE="hera"
 ACCOUNT="fv3-cam"
-EXPT_SUBDIR="test_CONUS_25km_GFSv15p2"
+EXPT_SUBDIR="test_CONUS_25km_GFSv15p2_ext"
 
 VERBOSE="TRUE"
 
