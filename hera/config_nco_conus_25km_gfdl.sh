@@ -24,6 +24,6 @@ EXTRN_MDL_NAME_LBCS="FV3GFS"
 
 RUN="srw_nco"
 COMINgfs="/scratch1/NCEPDEV/rstprod/com/gfs/prod"    
-FIXLAM_NCO_BASEDIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/00_DATA/fix_lam"  
+FIXLAM_NCO_BASEDIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/00_DATA/FV3LAM_pregen"  
 STMP="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/stmp" 
 PTMP="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/ptmp" 
