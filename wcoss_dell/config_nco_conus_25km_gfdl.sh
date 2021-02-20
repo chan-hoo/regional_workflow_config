@@ -24,6 +24,6 @@ EXTRN_MDL_NAME_LBCS="FV3GFS"
 
 RUN="srw_nco"
 COMINgfs="/gpfs/dell1/nco/ops/com/gfs/prod"
-FIXLAM_NCO_BASEDIR="/gpfs/dell2/emc/modeling/noscrub/Chan-Hoo.Jeon/00_DATA/fix_lam"
+FIXLAM_NCO_BASEDIR="/gpfs/dell2/emc/modeling/noscrub/Chan-Hoo.Jeon/00_DATA/FV3LAM_pregen"
 STMP="/gpfs/dell2/emc/modeling/noscrub/Chan-Hoo.Jeon/01_OUT_DATA/stmp"
 PTMP="/gpfs/dell2/emc/modeling/noscrub/Chan-Hoo.Jeon/01_OUT_DATA/ptmp"
