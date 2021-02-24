@@ -1,6 +1,6 @@
 MACHINE="wcoss_dell_p3"
 ACCOUNT="GFS-DEV"
-EXPT_SUBDIR="test_CONUS_25km_GFSv15p2_ext"
+EXPT_SUBDIR="test_GST"
 
 VERBOSE="TRUE"
 
