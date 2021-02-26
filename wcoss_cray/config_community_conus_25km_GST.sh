@@ -36,8 +36,8 @@ USE_USER_STAGED_EXTRN_FILES="TRUE"
 # The following is specifically for Hera.  It will have to be modified
 # if on another platform, using other dates, other external models, etc.
 #
-EXTRN_MDL_SOURCE_BASEDIR_ICS="/gpfs/hps3/emc/meso/noscrub/Chan-Hoo.Jeon/00_DATA/model_data/FV3GFS"
+EXTRN_MDL_SOURCE_BASEDIR_ICS="/gpfs/hps3/emc/meso/noscrub/UFS_SRW_App/model_data/FV3GFS"
 EXTRN_MDL_FILES_ICS=( "gfs.pgrb2.0p25.f000" )
-EXTRN_MDL_SOURCE_BASEDIR_LBCS="/gpfs/hps3/emc/meso/noscrub/Chan-Hoo.Jeon/00_DATA/model_data/FV3GFS"
+EXTRN_MDL_SOURCE_BASEDIR_LBCS="/gpfs/hps3/emc/meso/noscrub/UFS_SRW_App/model_data/FV3GFS"
 EXTRN_MDL_FILES_LBCS=( "gfs.pgrb2.0p25.f006" "gfs.pgrb2.0p25.f012" "gfs.pgrb2.0p25.f018" "gfs.pgrb2.0p25.f024" \
                        "gfs.pgrb2.0p25.f030" "gfs.pgrb2.0p25.f036" "gfs.pgrb2.0p25.f042" "gfs.pgrb2.0p25.f048" )
