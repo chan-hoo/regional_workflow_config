@@ -1,0 +1,10 @@
+#!/bin/bash --login
+
+#SBATCH -A fv3-cam
+#SBATCH --job-name=heratransfer_1
+#SBATCH --partition=service
+#SBATCH --time=00:20:00
+##SBATCH --nodes=1
+#SBATCH -n 1
+
+srun 00_make_reflc_files.ksh
