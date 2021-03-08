@@ -1,0 +1,57 @@
+#!/bin/bash
+
+################################################################################### CHJ #####
+## 
+## Usage: Copy reflectiviy files from hpss and convert them to python-readable grib2 files
+## Machine: Hera
+## 
+## NOAA/NWS/NCEP/EMC
+## Developer: Chan-Hoo Jeon
+## History
+## 2020/07/27: Chan-Hoo Jeon : Preliminary 
+################################################################################### CHJ #####
+
+module purge
+module load intel
+module load wgrib2
+module list
+
+cycle=2019070100
+
+case="mrms_${cycle}"
+
+path="/scratch2/NCEPDEV/fv3-cam/$LOGNAME/00_DATA/MRMS/${case}"
+path_sub="$path/new_grib2"
+
+if [ ! -d ${path} ];then
+  mkdir -p ${path}
+fi
+
+if [ ! -d ${path_sub} ];then
+  mkdir -p ${path_sub}
+fi
+
+yr=`echo $cycle | cut -c1-4`
+mo=`echo $cycle | cut -c5-6`
+dy=`echo $cycle | cut -c7-8`
+hr=`echo $cycle | cut -c9-10`
+
+hrlist=("03" "06")
+#hrlist=("06")
+for i in "${hrlist[@]}"
+do
+   fname0="${yr}${mo}${dy}${i}00"
+
+   fn1="QCComposite_00.50_${fname0}"
+   fn2="prate_${fname0}"
+   fn3="seamlessHSR_${fname0}"
+   fn4="ref2D_${fname0}"
+   fn5="ref3D_${fname0}"
+
+   fnlist=("$fn1" "$fn2" "$fn3" "$fn4" "$fn5")
+   
+   for j in "${fnlist[@]}"
+   do
+       wgrib2 "${path}/${j}.grib2" -set_grib_type c3 -grib_out "${path_sub}/${j}_new.grib2"
+   done
+done
