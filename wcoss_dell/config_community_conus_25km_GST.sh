@@ -27,7 +27,7 @@ EXTRN_MDL_NAME_LBCS="FV3GFS"
 FV3GFS_FILE_FMT_ICS="grib2"
 FV3GFS_FILE_FMT_LBCS="grib2"
 
-WTIME_RUN_FCST="02:10:00"
+WTIME_RUN_FCST="02:30:00"
 
 #
 # Uncomment the following line in order to use user-staged external model 
