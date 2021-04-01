@@ -7,6 +7,9 @@ VERBOSE="TRUE"
 RUN_ENVIR="nco"
 PREEXISTING_DIR_METHOD="rename"
 
+USE_CRON_TO_RELAUNCH="TRUE"
+CRON_RELAUNCH_INTVL_MNTS="5"
+
 PREDEF_GRID_NAME="CONUS_25km_GFDLgrid"
 QUILTING="TRUE"
 
@@ -22,8 +25,11 @@ CYCL_HRS=( "00" )
 EXTRN_MDL_NAME_ICS="FV3GFS"
 EXTRN_MDL_NAME_LBCS="FV3GFS"
 
+FV3GFS_FILE_FMT_ICS="grib2"
+FV3GFS_FILE_FMT_LBCS="grib2"
+
 RUN="srw_nco"
 COMINgfs="/scratch1/NCEPDEV/rstprod/com/gfs/prod"    
-FIXLAM_NCO_BASEDIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/00_DATA/FV3LAM_pregen"  
+FIXLAM_NCO_BASEDIR="/scratch2/BMC/det/FV3LAM_pregen"  
 STMP="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/stmp" 
 PTMP="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/ptmp" 
