@@ -25,6 +25,9 @@ CYCL_HRS=( "00" )
 EXTRN_MDL_NAME_ICS="FV3GFS"
 EXTRN_MDL_NAME_LBCS="FV3GFS"
 
+FV3GFS_FILE_FMT_ICS="grib2"
+FV3GFS_FILE_FMT_LBCS="grib2"
+
 RUN="srw_nco"
 COMINgfs="/gpfs/dell1/nco/ops/com/gfs/prod"
 FIXLAM_NCO_BASEDIR="/gpfs/hps3/emc/meso/noscrub/UFS_SRW_App/FV3LAM_pregen"
