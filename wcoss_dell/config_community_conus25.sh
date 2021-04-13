@@ -27,5 +27,3 @@ FV3GFS_FILE_FMT_LBCS="grib2"
 
 WTIME_RUN_FCST="01:00:00"
 
-EXTRN_MDL_FILES_ICS=( "gfs.pgrb2.0p25.f000" )
-EXTRN_MDL_FILES_LBCS=( "gfs.pgrb2.0p25.f006" "gfs.pgrb2.0p25.f012" )
