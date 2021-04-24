@@ -17,8 +17,8 @@ CCPP_PHYS_SUITE="FV3_GFS_v15p2"
 FCST_LEN_HRS="24"
 LBC_SPEC_INTVL_HRS="6"
 
-DATE_FIRST_CYCL="20190615"
-DATE_LAST_CYCL="20190615"
+DATE_FIRST_CYCL="20210423"
+DATE_LAST_CYCL="20210423"
 CYCL_HRS=( "00" )
 
 EXTRN_MDL_NAME_ICS="FV3GFS"
@@ -33,9 +33,9 @@ MODEL="FV3_GFS_v15p2_CONUS_25km"
 METPLUS_PATH="/contrib/METplus/METplus-3.0"
 MET_INSTALL_DIR="/contrib/met/9.0.2"
 
-CCPA_OBS_DIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/obs_data"
-MRMS_OBS_DIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/obs_data"
-NDAS_OBS_DIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/obs_data"
+CCPA_OBS_DIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/obs_data/data"
+MRMS_OBS_DIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/obs_data/data"
+NDAS_OBS_DIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/obs_data/data"
 
 RUN_TASK_GET_OBS_CCPA="TRUE"
 RUN_TASK_GET_OBS_MRMS="TRUE"
@@ -43,8 +43,3 @@ RUN_TASK_GET_OBS_NDAS="TRUE"
 RUN_TASK_VX_GRIDSTAT="TRUE"
 RUN_TASK_VX_POINTSTAT="TRUE"
 
-USE_USER_STAGED_EXTRN_FILES="TRUE"
-EXTRN_MDL_SOURCE_BASEDIR_ICS="/scratch2/BMC/det/UFS_SRW_app/v1p0/model_data/FV3GFS"
-EXTRN_MDL_FILES_ICS=( "gfs.pgrb2.0p25.f000" )
-EXTRN_MDL_SOURCE_BASEDIR_LBCS="/scratch2/BMC/det/UFS_SRW_app/v1p0/model_data/FV3GFS"
-EXTRN_MDL_FILES_LBCS=( "gfs.pgrb2.0p25.f006" "gfs.pgrb2.0p25.f012" "gfs.pgrb2.0p25.f018" "gfs.pgrb2.0p25.f024" )
