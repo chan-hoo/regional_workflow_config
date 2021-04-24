@@ -1,6 +1,6 @@
 MACHINE="wcoss_dell_p3"
 ACCOUNT="GFS-DEV"
-EXPT_SUBDIR="test_metplus_FV3_GFS_v15p2"
+EXPT_SUBDIR="test_metplus"
 
 VERBOSE="TRUE"
 
