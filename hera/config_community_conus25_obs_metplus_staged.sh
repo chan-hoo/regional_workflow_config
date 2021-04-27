@@ -30,8 +30,8 @@ FV3GFS_FILE_FMT_LBCS="grib2"
 WTIME_RUN_FCST="01:30:00"
 
 MODEL="FV3_GFS_v15p2_CONUS_25km"
-METPLUS_PATH="/contrib/METplus/METplus-3.0"
-MET_INSTALL_DIR="/contrib/met/9.0.2"
+METPLUS_PATH="/contrib/METplus/METplus-3.1.1"
+MET_INSTALL_DIR="/contrib/met/9.1"
 
 CCPA_OBS_DIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/obs_data/data"
 MRMS_OBS_DIR="/scratch2/NCEPDEV/fv3-cam/Chan-hoo.Jeon/01_OUT_DATA/obs_data/data"
