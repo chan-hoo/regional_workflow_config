@@ -30,8 +30,9 @@ FV3GFS_FILE_FMT_LBCS="grib2"
 WTIME_RUN_FCST="01:30:00"
 
 MODEL="FV3_GFS_v15p2_CONUS_25km"
-METPLUS_PATH="/gpfs/dell1/nco/ops/nwprod/metplus.v3.1.1/METplus-3.1.1"
-MET_INSTALL_DIR="/gpfs/dell1/nco/ops/nwprod/met.v9.1.3"
+METPLUS_PATH="/gpfs/dell2/emc/verification/noscrub/emc.metplus/METplus/METplus-3.1.1"
+MET_INSTALL_DIR="/gpfs/dell2/emc/verification/noscrub/emc.metplus/met/9.1"
+MET_BIN_EXEC="exec"
 CCPA_OBS_DIR="/gpfs/dell2/emc/modeling/noscrub/Chan-Hoo.Jeon/01_OUTPUT/obs_data/ccpa/proc"
 MRMS_OBS_DIR="/gpfs/dell2/emc/modeling/noscrub/Chan-Hoo.Jeon/01_OUTPUT/obs_data/mrms/proc"
 NDAS_OBS_DIR="/gpfs/dell2/emc/modeling/noscrub/Chan-Hoo.Jeon/01_OUTPUT/obs_data/ndas/proc"
@@ -47,4 +48,3 @@ EXTRN_MDL_SOURCE_BASEDIR_ICS="/gpfs/dell2/emc/modeling/noscrub/UFS_SRW_App/model
 EXTRN_MDL_FILES_ICS=( "gfs.pgrb2.0p25.f000" )
 EXTRN_MDL_SOURCE_BASEDIR_LBCS="/gpfs/dell2/emc/modeling/noscrub/UFS_SRW_App/model_data/FV3GFS"
 EXTRN_MDL_FILES_LBCS=( "gfs.pgrb2.0p25.f006" "gfs.pgrb2.0p25.f012" "gfs.pgrb2.0p25.f018" "gfs.pgrb2.0p25.f024" )
-
