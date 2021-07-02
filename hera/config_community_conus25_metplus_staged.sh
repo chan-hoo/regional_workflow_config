@@ -31,7 +31,7 @@ WTIME_RUN_FCST="01:00:00"
 
 MODEL="FV3_GFS_v15p2_CONUS_25km"
 METPLUS_PATH="/contrib/METplus/METplus-3.1.1"
-MET_INSTALL_DIR="/contrib/met/9.1"
+MET_INSTALL_DIR="/contrib/met/10.0.0"
 MET_BIN_EXEC="bin"
 CCPA_OBS_DIR="/scratch2/BMC/det/UFS_SRW_app/v1p0/obs_data/ccpa/proc"
 MRMS_OBS_DIR="/scratch2/BMC/det/UFS_SRW_app/v1p0/obs_data/mrms/proc"
