@@ -31,7 +31,7 @@ WTIME_RUN_FCST="01:30:00"
 
 MODEL="FV3_GFS_v15p2_CONUS_25km"
 METPLUS_PATH="/gpfs/dell2/emc/verification/noscrub/emc.metplus/METplus/METplus-3.1.1"
-MET_INSTALL_DIR="/gpfs/dell2/emc/verification/noscrub/emc.metplus/met/9.1"
+MET_INSTALL_DIR="/gpfs/dell2/emc/verification/noscrub/emc.metplus/met/10.0.0"
 MET_BIN_EXEC="exec"
 CCPA_OBS_DIR="/gpfs/dell2/emc/modeling/noscrub/UFS_SRW_App/obs_data/ccpa/proc"
 MRMS_OBS_DIR="/gpfs/dell2/emc/modeling/noscrub/UFS_SRW_App/obs_data/mrms/proc"
