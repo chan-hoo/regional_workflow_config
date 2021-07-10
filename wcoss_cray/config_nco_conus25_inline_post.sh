@@ -1,6 +1,6 @@
 MACHINE="wcoss_cray"
 ACCOUNT="RRFS-T2O"
-EXPT_SUBDIR="test_nco_conus_25km_gfdl"
+EXPT_SUBDIR="test_nco_inline_post"
 
 VERBOSE="TRUE"
 
