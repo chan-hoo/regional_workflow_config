@@ -1,6 +1,6 @@
 MACHINE="wcoss_dell_p3"
 ACCOUNT="GFS-DEV"
-EXPT_SUBDIR="test_inpost"
+EXPT_SUBDIR="test_inline_post"
 
 VERBOSE="TRUE"
 
@@ -17,7 +17,7 @@ WRITE_DOPOST="TRUE"
 
 QUILTING="TRUE"
 CCPP_PHYS_SUITE="FV3_GFS_v15p2"
-FCST_LEN_HRS="6"
+FCST_LEN_HRS="12"
 LBC_SPEC_INTVL_HRS="6"
 
 DATE_FIRST_CYCL="20190615"
@@ -36,4 +36,4 @@ USE_USER_STAGED_EXTRN_FILES="TRUE"
 EXTRN_MDL_SOURCE_BASEDIR_ICS="/gpfs/dell2/emc/modeling/noscrub/UFS_SRW_App/model_data/FV3GFS"
 EXTRN_MDL_FILES_ICS=( "gfs.pgrb2.0p25.f000" )
 EXTRN_MDL_SOURCE_BASEDIR_LBCS="/gpfs/dell2/emc/modeling/noscrub/UFS_SRW_App/model_data/FV3GFS"
-EXTRN_MDL_FILES_LBCS=( "gfs.pgrb2.0p25.f006" )
+EXTRN_MDL_FILES_LBCS=( "gfs.pgrb2.0p25.f006" "gfs.pgrb2.0p25.f012" )
